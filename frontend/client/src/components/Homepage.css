@@ -1,0 +1,67 @@
+/* src/components/Homepage.css */
+
+.homepage-container {
+    background-image: url('../assets/doctor_home.jpg'); /* Use your hospital image here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hospital-name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info-card {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);  /* Translucent effect */
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-card p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .info-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .info-card ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  
+  
+  
